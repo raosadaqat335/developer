@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+form{
+    margin: auto;
+    background-color: aliceblue;
+    width: 40%;
+    border-radius: 10px;
+}
+.section-1{
+    color: white;
+    background-color: #A5C471;
+    padding: 10px 25px ;
+    border-radius: 10px 10px 0px 0px;
+}
+.section-1 p{
+    margin-top: -20px;
+}
+.section-2{
+    padding: 25px;
+
+}
+.section-2 label{
+    font-size: 16px;
+}
+.section-2 ::placeholder{
+    font-size: 15px;
+    color: black;
+}
+.section-2 input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid  gainsboro;
+    outline: none;
+}
+
+.section-2 textarea{
+    width: 100%;
+    border: 1px solid  gainsboro;
+    font-size: 15px;
+    padding: 7px;
+    outline: none;
+
+}
+button{
+    width: 90px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:#A5C471;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: coral;
+}
